@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+pyarrow
+plotly
+scikit-learn
+joblib
+openai
+python-dotenv
+seaborn
+matplotlib
+scipy
+nbconvert
+ipykernel

@@ -1,0 +1,5 @@
+family,feature_set,candidate_id,parameters,mean_average_precision,std_average_precision,mean_brier_score,mean_recall_at_top_k,mean_fit_seconds,class_weight,selected_within_family
+logistic,behavior_core_linear,2,"{""model__C"": 0.2, ""model__class_weight"": null}",0.3501084513509858,0.056655843960945265,0.048509651089679875,0.49925925925925924,0.03398709999601124,None,True
+logistic,behavior_core_linear,1,"{""model__C"": 0.05, ""model__class_weight"": ""balanced""}",0.3421474601486043,0.038570865729544886,0.1542127043100146,0.5,0.024260449994471855,balanced,False
+random_forest,behavior_core,0,"{""model__class_weight"": null, ""model__max_depth"": 8, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 5}",0.35875583812667267,0.07632457098980422,0.04830291590950095,0.514074074074074,0.4671119000049657,None,True
+random_forest,behavior_core,9,"{""model__class_weight"": ""balanced_subsample"", ""model__max_depth"": 12, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 15}",0.3334072869264451,0.060331382007607445,0.09127780081865979,0.47259259259259256,0.6323902500007534,balanced_subsample,False

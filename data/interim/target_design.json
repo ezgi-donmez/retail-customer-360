@@ -1,0 +1,82 @@
+{
+  "analysis_unit": "household_key x snapshot_day",
+  "observation_window_days": 182,
+  "prediction_window_days": 56,
+  "active_lookback_days": 84,
+  "minimum_history_days": 90,
+  "minimum_baskets_in_observation": 2,
+  "snapshot_days": [
+    431,
+    487,
+    543,
+    599,
+    655
+  ],
+  "train_snapshot_days": [
+    431,
+    487,
+    543
+  ],
+  "validation_snapshot_days": [
+    599
+  ],
+  "test_snapshot_days": [
+    655
+  ],
+  "target_definition": "no valid purchase basket in prediction window",
+  "monetary_definition": "customer_paid_value = sales_value + coupon_disc",
+  "category_value_definition": "retailer_revenue on non-accounting product lines",
+  "rows": 11356,
+  "unique_households": 2430,
+  "inactive_rows": 738,
+  "inactive_rate": 0.06498767171539274,
+  "all_candidate_feature_count": 185,
+  "modeling_candidate_feature_count": 185,
+  "constant_features_removed": [],
+  "top_departments_selected_from_train": [
+    "GROCERY",
+    "DRUG GM",
+    "KIOSK-GAS",
+    "PRODUCE",
+    "MEAT",
+    "MEAT-PCKGD",
+    "DELI",
+    "MISC SALES TRAN"
+  ],
+  "categorical_features": [
+    "classification_1",
+    "classification_2",
+    "classification_3",
+    "homeowner_desc",
+    "classification_5",
+    "classification_4",
+    "kid_category_desc"
+  ],
+  "linear_redundant_features_removed": {
+    "active_days": "frequency_baskets ile yaklaşık 0.99 ve active_weeks ile yaklaşık 0.97 train Spearman korelasyon"
+  },
+  "positive_rows_by_split": {
+    "train": 423,
+    "validation": 150,
+    "test": 165
+  },
+  "panel_dependence": {
+    "train_rows": 6804,
+    "train_unique_households": 2381,
+    "train_households_in_multiple_snapshots": 2297,
+    "same_household_may_appear_across_splits": true,
+    "intended_scoring_population": "recurring households at later snapshots"
+  },
+  "validation_protocol": {
+    "primary_split": "chronological snapshot holdout",
+    "random_row_kfold_allowed": false,
+    "optional_inner_tuning": "forward chaining by snapshot day",
+    "group_kfold_role": "secondary cold-start household robustness only",
+    "threshold_selection_split": "validation",
+    "test_usage": "single final evaluation after all choices are frozen",
+    "bootstrap_test_metrics": true,
+    "bootstrap_unit": "household row within the single test snapshot",
+    "recommended_bootstrap_repetitions_minimum": 1000,
+    "confidence_level": 0.95
+  }
+}

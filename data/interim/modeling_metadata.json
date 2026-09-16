@@ -1,0 +1,185 @@
+{
+  "selected_model_name": "logistic_core",
+  "selected_family": "logistic",
+  "selected_feature_set": "behavior_core_linear",
+  "selected_feature_count": 37,
+  "selected_hyperparameters": {
+    "model__C": 0.2,
+    "model__class_weight": null
+  },
+  "class_weight_audit_finding": {
+    "logistic": "logistic: class_weight=None için train-CV AP=0.3501, Brier=0.0485; balanced için AP=0.3421, Brier=0.1542. Ağırlıksız aday hem AP hem Brier bakımından daha iyi. Her sınıf ağırlığı seçeneğinin AP ile seçilmiş en iyi ayarları karşılaştırılmıştır; bu, tek başına sınıf ağırlığının nedensel etkisi veya istatistiksel anlamlılık testi değildir. Yalnızca iki fold vardır.",
+    "random_forest": "random_forest: class_weight=None için train-CV AP=0.3588, Brier=0.0483; balanced_subsample için AP=0.3334, Brier=0.0913. Ağırlıksız aday hem AP hem Brier bakımından daha iyi. Her sınıf ağırlığı seçeneğinin AP ile seçilmiş en iyi ayarları karşılaştırılmıştır; bu, tek başına sınıf ağırlığının nedensel etkisi veya istatistiksel anlamlılık testi değildir. Yalnızca iki fold vardır."
+  },
+  "class_weight_audit": [
+    {
+      "family": "logistic",
+      "feature_set": "behavior_core_linear",
+      "candidate_id": 2,
+      "parameters": "{\"model__C\": 0.2, \"model__class_weight\": null}",
+      "mean_average_precision": 0.3501084513509858,
+      "std_average_precision": 0.056655843960945265,
+      "mean_brier_score": 0.048509651089679875,
+      "mean_recall_at_top_k": 0.49925925925925924,
+      "mean_fit_seconds": 0.03398709999601124,
+      "class_weight": "None",
+      "selected_within_family": true
+    },
+    {
+      "family": "logistic",
+      "feature_set": "behavior_core_linear",
+      "candidate_id": 1,
+      "parameters": "{\"model__C\": 0.05, \"model__class_weight\": \"balanced\"}",
+      "mean_average_precision": 0.3421474601486043,
+      "std_average_precision": 0.038570865729544886,
+      "mean_brier_score": 0.1542127043100146,
+      "mean_recall_at_top_k": 0.5,
+      "mean_fit_seconds": 0.024260449994471855,
+      "class_weight": "balanced",
+      "selected_within_family": false
+    },
+    {
+      "family": "random_forest",
+      "feature_set": "behavior_core",
+      "candidate_id": 0,
+      "parameters": "{\"model__class_weight\": null, \"model__max_depth\": 8, \"model__max_features\": \"sqrt\", \"model__min_samples_leaf\": 5}",
+      "mean_average_precision": 0.35875583812667267,
+      "std_average_precision": 0.07632457098980422,
+      "mean_brier_score": 0.04830291590950095,
+      "mean_recall_at_top_k": 0.514074074074074,
+      "mean_fit_seconds": 0.4671119000049657,
+      "class_weight": "None",
+      "selected_within_family": true
+    },
+    {
+      "family": "random_forest",
+      "feature_set": "behavior_core",
+      "candidate_id": 9,
+      "parameters": "{\"model__class_weight\": \"balanced_subsample\", \"model__max_depth\": 12, \"model__max_features\": \"sqrt\", \"model__min_samples_leaf\": 15}",
+      "mean_average_precision": 0.3334072869264451,
+      "std_average_precision": 0.060331382007607445,
+      "mean_brier_score": 0.09127780081865979,
+      "mean_recall_at_top_k": 0.47259259259259256,
+      "mean_fit_seconds": 0.6323902500007534,
+      "class_weight": "balanced_subsample",
+      "selected_within_family": false
+    }
+  ],
+  "isotonic_decision": {
+    "included": false,
+    "reason": "ties_conflict_with_strict_score_order_preservation"
+  },
+  "subgroup_reporting": {
+    "minimum_positive_rows": 30,
+    "rule": "positive_rows >= minimum_positive_rows",
+    "heuristic_not_significance_test": true
+  },
+  "selection_metric": "validation average_precision",
+  "threshold_selection_metric": "validation F2",
+  "selected_threshold": 0.1020510061918964,
+  "top_k_rate": 0.1,
+  "probability_contract": {
+    "raw_score_field": "raw_model_score",
+    "downstream_probability_field": "lapse_probability",
+    "raw_score_must_not_be_presented_as_frequency": true,
+    "selected_probability_method": "native_raw",
+    "method_selection_split": "validation",
+    "available_calibrator_saved": true,
+    "auto_fallback_allowed": false,
+    "activation_requires_new_labeled_validation_and_threshold_review": true,
+    "gate_scope": "minimum_validation_screen_not_calibration_guarantee",
+    "platt_candidate_fit": "chronological train OOF scores",
+    "calibration_clip_epsilon": 1e-06,
+    "calibration_snapshot_days": [
+      487,
+      543
+    ],
+    "platt_slope": 1.0879754614543615,
+    "platt_intercept": -0.0041012043429901465,
+    "validation_raw_brier": 0.05222843614231623,
+    "validation_platt_brier": 0.05252438439961443,
+    "validation_selected_brier": 0.05222843614231623,
+    "validation_selected_mean_probability": 0.061104973680791465,
+    "validation_dummy_brier": 0.061779135522521754,
+    "rank_preserved": true,
+    "ready_for_downstream": true
+  },
+  "calibration_diagnostics": {
+    "metric": "class_1_ECE_weighted_absolute_bin_gap",
+    "strategy": "quantile_per_candidate",
+    "requested_bins": 10,
+    "binning": "sklearn_calibration_curve_quantile_left_search_empty_bins_omitted",
+    "validation_by_method": {
+      "dummy_prior": {
+        "ece_quantile": 0.003968253968253975,
+        "brier_score": 0.061779135522521754,
+        "effective_bins": 1
+      },
+      "native_raw": {
+        "ece_quantile": 0.011044323697765476,
+        "brier_score": 0.05222843614231623,
+        "effective_bins": 10
+      },
+      "platt_oof": {
+        "ece_quantile": 0.013880592875248182,
+        "brier_score": 0.05252438439961443,
+        "effective_bins": 10
+      }
+    },
+    "test_selected_method": "native_raw",
+    "test_ece_quantile": 0.011776599466577201,
+    "test_effective_bins": 10,
+    "used_for_method_selection": false,
+    "is_individual_confidence": false,
+    "warning": "ECE depends on bins and sample; 1-ECE is not confidence."
+  },
+  "validation_metrics_at_selected_threshold": {
+    "average_precision": 0.31431222380119334,
+    "roc_auc": 0.8677242681775259,
+    "brier_score": 0.05222843614231623,
+    "positive_rate": 0.06613756613756613,
+    "top_k_rate": 0.1,
+    "top_k_count": 227,
+    "positives_captured_at_top_k": 66,
+    "recall_at_top_k": 0.44,
+    "precision_at_top_k": 0.2907488986784141,
+    "lift_at_top_k": 4.396123348017621,
+    "threshold": 0.1020510061918964,
+    "predicted_positive_rate": 0.1984126984126984,
+    "precision": 0.24444444444444444,
+    "recall": 0.7333333333333333,
+    "f1": 0.36666666666666664,
+    "f2": 0.5238095238095238
+  },
+  "test_metrics": {
+    "average_precision": 0.2733837116176236,
+    "roc_auc": 0.8512334291475396,
+    "brier_score": 0.05842848881934656,
+    "positive_rate": 0.07224168126094571,
+    "top_k_rate": 0.1,
+    "top_k_count": 229,
+    "positives_captured_at_top_k": 72,
+    "recall_at_top_k": 0.43636363636363634,
+    "precision_at_top_k": 0.314410480349345,
+    "lift_at_top_k": 4.352203255260024,
+    "threshold": 0.1020510061918964,
+    "predicted_positive_rate": 0.19614711033274956,
+    "precision": 0.25892857142857145,
+    "recall": 0.703030303030303,
+    "f1": 0.37846655791190864,
+    "f2": 0.5234657039711191,
+    "ece_quantile": 0.011776599466577201,
+    "dummy_prior_brier_score": 0.06712427336865572
+  },
+  "bootstrap_repetitions": 1000,
+  "bootstrap_confidence_level": 0.95,
+  "test_evaluated_for_selected_model_only": true,
+  "test_snapshot_previously_reviewed": true,
+  "evaluation_status": "retrospective_revision_requires_fresh_holdout",
+  "shap_status": "created",
+  "python_version": "3.11.15",
+  "sklearn_version": "1.8.0",
+  "pandas_version": "3.0.3",
+  "numpy_version": "2.4.6",
+  "random_state": 42
+}

@@ -1,0 +1,12 @@
+check,passed,detail
+Transaction feature günleri cutoff'u aşmıyor,True,snapshot bazında kontrol
+Basket feature günleri cutoff'u aşmıyor,True,snapshot bazında kontrol
+Ürün feature günleri cutoff'u aşmıyor,True,snapshot bazında kontrol
+Hedef dönemleri cutoff'tan sonra başlıyor,True,prediction_start > snapshot
+Departman şeması kaynak günleri train erişim aralığında,True,actual=250-543; allowed=250-543
+Target ve feature recency hesapları birebir eşleşiyor,True,mismatch=0
+Ham kimlikler model feature listesinde değil,True,[]
+future_* sütunları model feature listesinde değil,True,[]
+Hane × snapshot anahtarı benzersiz,True,"rows=11,356"
+Bütün satırlarda hedef mevcut,True,missing=0
+Train/validation/test snapshot kümeleri ayrık,True,snapshot listeleri

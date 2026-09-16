@@ -1,0 +1,186 @@
+feature,dtype,missing_count_train,missing_ratio_train,unique_count_train,quality_note
+days_since_last_redemption,float64,6084,0.8941798941798942,180,Yüksek eksik — göstergeyle birlikte kullan
+bc_coupon_redemption_rate,float64,4971,0.7305996472663139,72,Yüksek eksik — göstergeyle birlikte kullan
+demographic_unknown_count,float64,4410,0.6481481481481481,4,Yüksek eksik — göstergeyle birlikte kullan
+days_since_last_fuel_purchase,float64,4010,0.5893592004703115,183,Yüksek eksik — göstergeyle birlikte kullan
+redemption_campaign_share,float64,3511,0.5160199882422105,20,Yüksek eksik — göstergeyle birlikte kullan
+days_since_last_campaign,float64,3511,0.5160199882422105,26,Yüksek eksik — göstergeyle birlikte kullan
+department_retention_rate,float64,353,0.05188124632569077,65,Eksik — fold içi imputation
+gap_trend_last_5,float64,154,0.02263374485596708,1941,Eksik — fold içi imputation
+std_purchase_gap,float64,154,0.02263374485596708,6464,Eksik — fold içi imputation
+gap_cv,float64,154,0.02263374485596708,6601,Eksik — fold içi imputation
+last_purchase_gap,float64,10,0.0014697236919459142,145,Eksik — fold içi imputation
+max_purchase_gap,float64,10,0.0014697236919459142,152,Eksik — fold içi imputation
+median_purchase_gap,float64,10,0.0014697236919459142,185,Eksik — fold içi imputation
+gap_acceleration,float64,10,0.0014697236919459142,251,Eksik — fold içi imputation
+recent_mean_purchase_gap_3,float64,10,0.0014697236919459142,274,Eksik — fold içi imputation
+recency_to_typical_gap,float64,10,0.0014697236919459142,1110,Eksik — fold içi imputation
+mean_purchase_gap,float64,10,0.0014697236919459142,2165,Eksik — fold içi imputation
+recent_gap_to_history_ratio,float64,10,0.0014697236919459142,4903,Eksik — fold içi imputation
+weekly_basket_cv_12w,float64,7,0.00102880658436214,1115,Eksik — fold içi imputation
+weekly_spend_cv_12w,float64,7,0.00102880658436214,6410,Eksik — fold içi imputation
+has_fuel_purchase,int8,0,0.0,2,Hazır
+has_previous_department_history,int8,0,0.0,2,Hazır
+has_campaign_history,int8,0,0.0,2,Hazır
+has_active_campaign,int8,0,0.0,2,Hazır
+has_redeemed_coupon,int8,0,0.0,2,Hazır
+has_bc_coupon_opportunity,int8,0,0.0,2,Hazır
+has_demographic,int8,0,0.0,2,Hazır
+has_internal_demographic_unknown,int8,0,0.0,2,Hazır
+active_campaigns_at_snapshot,float64,0,0.0,3,Hazır
+completed_campaigns_received_TypeA,float64,0,0.0,4,Hazır
+completed_campaigns_received_TypeC,float64,0,0.0,4,Hazır
+coupon_redemption_events_obs_TypeC,float64,0,0.0,4,Hazır
+classification_2,string,0,0.0,4,Hazır
+active_weeks_last_4w,float64,0,0.0,5,Hazır
+bc_campaigns_with_redemption_completed,float64,0,0.0,5,Hazır
+kid_category_desc,string,0,0.0,5,Hazır
+campaigns_with_redemption_obs,float64,0,0.0,6,Hazır
+completed_campaigns_with_redemption,float64,0,0.0,6,Hazır
+homeowner_desc,string,0,0.0,6,Hazır
+classification_4,string,0,0.0,6,Hazır
+completed_campaigns_received_TypeB,float64,0,0.0,7,Hazır
+classification_1,string,0,0.0,7,Hazır
+classification_5,string,0,0.0,7,Hazır
+coupon_redemption_events_obs_TypeB,float64,0,0.0,8,Hazır
+bc_unique_coupon_redemptions_completed,float64,0,0.0,8,Hazır
+active_weeks_last_8w,float64,0,0.0,9,Hazır
+active_weeks_prev_8w,float64,0,0.0,9,Hazır
+campaigns_started_last_26w,float64,0,0.0,10,Hazır
+completed_campaigns_received,float64,0,0.0,11,Hazır
+lost_departments_8w,int64,0,0.0,12,Hazır
+active_weeks_last_12w,float64,0,0.0,13,Hazır
+new_departments_8w,int64,0,0.0,13,Hazır
+classification_3,string,0,0.0,13,Hazır
+unique_stores,int64,0,0.0,15,Hazır
+common_departments_8w,int64,0,0.0,15,Hazır
+coupon_redemption_events_obs_TypeA,float64,0,0.0,15,Hazır
+unique_departments_last_4w,float64,0,0.0,17,Hazır
+unique_coupons_redeemed_obs,float64,0,0.0,17,Hazır
+unique_departments_last_8w,float64,0,0.0,18,Hazır
+unique_departments_prev_8w,float64,0,0.0,18,Hazır
+departments_last_8w,int64,0,0.0,18,Hazır
+departments_prev_8w,int64,0,0.0,18,Hazır
+coupon_redemption_events_obs,float64,0,0.0,18,Hazır
+unique_departments_last_12w,float64,0,0.0,19,Hazır
+unique_departments,int64,0,0.0,19,Hazır
+department_diversity_change_8w,int64,0,0.0,24,Hazır
+active_weeks,int64,0,0.0,26,Hazır
+active_week_ratio,float64,0,0.0,26,Hazır
+active_days_last_4w,float64,0,0.0,28,Hazır
+fuel_purchase_days,int64,0,0.0,50,Hazır
+active_days_last_8w,float64,0,0.0,52,Hazır
+active_days_prev_8w,float64,0,0.0,52,Hazır
+active_week_change_8w,float64,0,0.0,55,Hazır
+baskets_last_4w,float64,0,0.0,61,Hazır
+active_days_last_12w,float64,0,0.0,77,Hazır
+department_jaccard,float64,0,0.0,79,Hazır
+bc_coupon_opportunities_completed,float64,0,0.0,79,Hazır
+recency_days,int64,0,0.0,85,Hazır
+median_products_per_basket,float64,0,0.0,98,Hazır
+baskets_last_8w,float64,0,0.0,98,Hazır
+baskets_prev_8w,float64,0,0.0,103,Hazır
+coupon_basket_rate_last_4w,float64,0,0.0,120,Hazır
+nonpositive_basket_rate,float64,0,0.0,132,Hazır
+baskets_last_12w,float64,0,0.0,134,Hazır
+weekly_basket_mean_12w,float64,0,0.0,134,Hazır
+department_diversity_change_8w_ratio,float64,0,0.0,141,Hazır
+active_days,int64,0,0.0,147,Hazır
+gap_observation_count,int64,0,0.0,147,Hazır
+discounted_basket_rate_last_4w,float64,0,0.0,160,Hazır
+purchase_span_days,int64,0,0.0,177,Hazır
+unique_commodities,int64,0,0.0,185,Hazır
+coupon_basket_rate_prev_8w,float64,0,0.0,226,Hazır
+frequency_baskets,int64,0,0.0,229,Hazır
+coupon_basket_rate_last_8w,float64,0,0.0,233,Hazır
+unique_products_last_4w,float64,0,0.0,245,Hazır
+panel_tenure_days,int64,0,0.0,246,Hazır
+basket_slope_12w,float64,0,0.0,292,Hazır
+discounted_basket_rate_last_8w,float64,0,0.0,326,Hazır
+discounted_basket_rate_prev_8w,float64,0,0.0,330,Hazır
+coupon_basket_rate_last_12w,float64,0,0.0,344,Hazır
+basket_change_4w,float64,0,0.0,350,Hazır
+total_coupon_match_discount,float64,0,0.0,365,Hazır
+unique_products_prev_8w,float64,0,0.0,372,Hazır
+unique_products_last_8w,float64,0,0.0,376,Hazır
+night_basket_rate,float64,0,0.0,393,Hazır
+unique_subcommodities,int64,0,0.0,407,Hazır
+discounted_basket_rate_last_12w,float64,0,0.0,443,Hazır
+weekly_basket_std_12w,float64,0,0.0,459,Hazır
+unique_products_last_12w,float64,0,0.0,482,Hazır
+coupon_line_rate_last_4w,float64,0,0.0,575,Hazır
+basket_change_8w,float64,0,0.0,684,Hazır
+gift_ticket_revenue_share,float64,0,0.0,687,Hazır
+baskets_per_active_week,float64,0,0.0,711,Hazır
+coupon_basket_rate,float64,0,0.0,737,Hazır
+unique_products,int64,0,0.0,773,Hazır
+fuel_basket_rate,float64,0,0.0,815,Hazır
+discounted_basket_rate,float64,0,0.0,938,Hazır
+coupon_line_rate_prev_8w,float64,0,0.0,939,Hazır
+coupon_line_rate_last_8w,float64,0,0.0,971,Hazır
+coupon_basket_rate_change_8w,float64,0,0.0,1002,Hazır
+total_coupon_discount,float64,0,0.0,1050,Hazır
+single_product_basket_rate,float64,0,0.0,1054,Hazır
+morning_basket_rate,float64,0,0.0,1062,Hazır
+coupon_accounting_line_rate,float64,0,0.0,1118,Hazır
+dominant_store_share,float64,0,0.0,1154,Hazır
+afternoon_basket_rate,float64,0,0.0,1238,Hazır
+coupon_line_rate_last_12w,float64,0,0.0,1291,Hazır
+evening_basket_rate,float64,0,0.0,1309,Hazır
+discounted_basket_rate_change_8w,float64,0,0.0,1642,Hazır
+discounted_line_rate_last_4w,float64,0,0.0,1654,Hazır
+coupon_line_rate_change_8w,float64,0,0.0,1955,Hazır
+dept_revenue_share_misc_sales_tran,float64,0,0.0,1955,Hazır
+coupon_line_rate,float64,0,0.0,2074,Hazır
+other_misc_revenue_share,float64,0,0.0,2515,Hazır
+dept_revenue_share_kiosk_gas,float64,0,0.0,2624,Hazır
+discounted_line_rate_last_8w,float64,0,0.0,2625,Hazır
+discounted_line_rate_prev_8w,float64,0,0.0,2656,Hazır
+fuel_revenue_share,float64,0,0.0,2792,Hazır
+avg_transaction_hour,float64,0,0.0,3132,Hazır
+discounted_line_rate_last_12w,float64,0,0.0,3295,Hazır
+repeat_product_rate,float64,0,0.0,3790,Hazır
+product_diversity_change_8w,float64,0,0.0,4005,Hazır
+max_basket_value,float64,0,0.0,4077,Hazır
+avg_products_per_basket,float64,0,0.0,4162,Hazır
+discounted_line_rate,float64,0,0.0,4594,Hazır
+median_basket_value,float64,0,0.0,4598,Hazır
+dept_revenue_share_deli,float64,0,0.0,4955,Hazır
+customer_spend_last_4w,float64,0,0.0,5508,Hazır
+dept_revenue_share_meat,float64,0,0.0,5658,Hazır
+avg_basket_value_last_4w,float64,0,0.0,5667,Hazır
+discounted_line_rate_change_8w,float64,0,0.0,5832,Hazır
+dept_revenue_share_meat_pckgd,float64,0,0.0,5895,Hazır
+customer_spend_prev_8w,float64,0,0.0,6126,Hazır
+transaction_hour_std,float64,0,0.0,6144,Hazır
+total_discount_amount,float64,0,0.0,6185,Hazır
+total_retail_discount,float64,0,0.0,6205,Hazır
+customer_spend_last_8w,float64,0,0.0,6209,Hazır
+avg_basket_value_prev_8w,float64,0,0.0,6256,Hazır
+dept_revenue_share_produce,float64,0,0.0,6295,Hazır
+avg_basket_value_last_8w,float64,0,0.0,6371,Hazır
+products_per_basket_std,float64,0,0.0,6428,Hazır
+recent_spend_share_8w,float64,0,0.0,6492,Hazır
+top3_department_revenue_share,float64,0,0.0,6512,Hazır
+customer_spend_last_12w,float64,0,0.0,6522,Hazır
+spend_change_4w,float64,0,0.0,6526,Hazır
+dept_revenue_share_drug_gm,float64,0,0.0,6553,Hazır
+weekly_spend_mean_12w,float64,0,0.0,6586,Hazır
+avg_basket_discount,float64,0,0.0,6634,Hazır
+avg_basket_value_last_12w,float64,0,0.0,6651,Hazır
+retailer_revenue_total,float64,0,0.0,6655,Hazır
+customer_spend_total,float64,0,0.0,6665,Hazır
+private_brand_revenue_share,float64,0,0.0,6717,Hazır
+spend_per_active_week,float64,0,0.0,6726,Hazır
+dept_revenue_share_grocery,float64,0,0.0,6737,Hazır
+avg_basket_value,float64,0,0.0,6741,Hazır
+top_department_revenue_share,float64,0,0.0,6752,Hazır
+department_hhi,float64,0,0.0,6752,Hazır
+department_entropy,float64,0,0.0,6752,Hazır
+discount_dependency,float64,0,0.0,6756,Hazır
+weekly_spend_std_12w,float64,0,0.0,6762,Hazır
+basket_value_std,float64,0,0.0,6765,Hazır
+spend_slope_12w,float64,0,0.0,6765,Hazır
+basket_value_cv,float64,0,0.0,6767,Hazır
+avg_basket_value_change_8w,float64,0,0.0,6784,Hazır
+spend_change_8w,float64,0,0.0,6787,Hazır

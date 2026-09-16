@@ -1,0 +1,8 @@
+table,rows,columns,missing_cells,hidden_blank_cells,duplicated_rows,memory_mb
+transaction_data,2595732,12,0,0,0,237.64648818969727
+coupon,124548,3,0,0,5164,2.8508033752441406
+product,92353,7,0,30652,0,9.542709350585938
+campaign_table,7208,3,0,0,0,0.19947433471679688
+coupon_redempt,2318,4,0,0,0,0.07086563110351562
+hh_demographic,801,8,0,0,0,0.08054637908935547
+campaign_desc,30,4,0,0,0,0.0011844635009765625
