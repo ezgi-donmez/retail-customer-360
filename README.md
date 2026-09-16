@@ -1,8 +1,4 @@
-Bu proje, MIUUL AI Data Scientist Bootcamp 21. Dönem final projesi kapsamında geliştirilmiştir. 
-
-## Teşekkür
-
-Proje sürecindeki değerli yönlendirmeleri ve destekleri için mentörümüz **Mustafa Gürkan Çanakçı’ya** ve **MIUUL ekibine** teşekkür ederiz.
+Bu proje, MIUUL AI Data Scientist Bootcamp 21. Dönem final projesi kapsamında geliştirilmiştir. Proje sürecindeki değerli yönlendirmeleri ve destekleri için mentörümüz **Mustafa Gürkan Çanakçı’ya** ve **MIUUL ekibine** teşekkür ederiz.
 
 ## Proje Ekibi
 
