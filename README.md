@@ -1,3 +1,15 @@
+Bu proje, MIUUL AI Data Scientist Bootcamp 21. Dönem final projesi kapsamında geliştirilmiştir. 
+
+## Teşekkür
+
+Proje sürecindeki değerli yönlendirmeleri ve destekleri için mentörümüz **Mustafa Gürkan Çanakçı’ya** ve **MIUUL ekibine** teşekkür ederiz.
+
+## Proje Ekibi
+
+- Selda Kırkkanat
+- Ezgi Dönmez
+- Tuğçe Güven
+
 # The Complete Journey — Perakendede Müşteri Kaybı Tahmini ve Akıllı Karar Destek Sistemi
 
 Bu proje, dunnhumby **The Complete Journey** veri setindeki geçmiş alışveriş davranışlarını kullanarak bir hanenin izleyen **56 gün içinde hiç geçerli alışveriş yapmama riskini** tahmin eder.
