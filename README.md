@@ -534,5 +534,5 @@ Bu proje, MIUUL AI Data Scientist Bootcamp 21. Dönem final projesi kapsamında 
 ## Proje Ekibi
 
 - [Ezgi Dönmez](https://github.com/ezgi-donmez)
-- Selda Kırkkanat
+- [Selda Kırkkanat](https://github.com/ozgurkirikkanat)
 - [Tuğçe Güven](https://github.com/tugceguvenn)
