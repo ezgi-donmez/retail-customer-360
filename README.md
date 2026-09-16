@@ -1,5 +1,5 @@
 
-# The Complete Journey — Perakendede Müşteri Kaybı Tahmini ve Akıllı Karar Destek Sistemi
+# Perakendede Müşteri Kaybı Tahmini ve Akıllı Karar Destek Sistemi
 
 Bu proje, dunnhumby **The Complete Journey** veri setindeki geçmiş alışveriş davranışlarını kullanarak bir hanenin izleyen **56 gün içinde hiç geçerli alışveriş yapmama riskini** tahmin eder.
 
