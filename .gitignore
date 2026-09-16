@@ -1,0 +1,42 @@
+# API anahtarları ve gizli bilgiler
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python geçici dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sanal ortamlar
+.venv/
+venv/
+env/
+
+# IDE ayarları
+.idea/
+.vscode/
+
+# Test ve önbellek dosyaları
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Büyük ham ve ara veriler
+data/raw/*
+data/interim/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+
+# Log ve geçici dosyalar
+*.log
+*.tmp
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
