@@ -3,7 +3,7 @@
 
 Bu proje, dunnhumby **The Complete Journey** veri setindeki geçmiş alışveriş davranışlarını kullanarak bir hanenin izleyen **56 gün içinde hiç geçerli alışveriş yapmama riskini** tahmin eder.
 
-Buradaki hedef sözleşmeli hizmetlerdeki kesin müşteri kaybı (`churn`) değildir. Perakende bağlamında **yaklaşan alışveriş pasifliği** olarak yorumlanır. Model; riskli haneleri önceliklendirmek, sınırlı kampanya kapasitesini daha verimli kullanmak ve ileride geliştirilecek Customer 360/chatbot uygulamasına açıklanabilir çıktılar sağlamak üzere tasarlanmıştır.
+Buradaki hedef sözleşmeli hizmetlerdeki kesin müşteri kaybı (`churn`) değildir. Perakende bağlamında **yaklaşan alışveriş pasifliği** olarak yorumlanır. Model; riskli haneleri önceliklendirmek, sınırlı kampanya kapasitesini daha verimli kullanmak ve Customer 360/chatbot uygulamasına açıklanabilir çıktılar sağlamak üzere tasarlanmıştır.
 
 ## Projenin kısa özeti
 
@@ -53,7 +53,7 @@ data/raw/
 
 Model her snapshot gününde yakın zamanda aktif olan haneleri değerlendirir ve şu soruyu yanıtlar:
 
-> Bu hane, snapshot gününden sonraki 56 gün boyunca hiç alışveriş yapmayacak mı?
+> Hangi haneler sessizce uzaklaşıyor?
 
 Bir hanenin modele alınabilmesi için:
 
@@ -226,7 +226,6 @@ Permutation importance sonuçlarına göre modelin en fazla yararlandığı feat
 | `customer_spend_last_4w` | 0,0089 | En yakın dönem harcama seviyesi |
 
 Sıfıra yakın veya negatif permutation importance, bir feature'ın kesinlikle gereksiz olduğunu tek başına göstermez. Korelasyonlu feature'lar birbirinin bilgisini taşıyabildiği için silme kararları yeni validation sonuçlarıyla test edilmelidir.
-
 
 ## Kurulum ve çalıştırma
 
@@ -530,11 +529,10 @@ Bilmeniz gerekenler:
 
 Proje kodu [`LICENSE`](LICENSE) dosyasındaki MIT Lisansı ile sunulmaktadır. The Complete Journey veri setinin kullanım koşulları kendi veri sağlayıcısına aittir.
 
-Bu proje, MIUUL AI Data Scientist Bootcamp 21. Dönem final projesi kapsamında geliştirilmiştir. Proje sürecindeki değerli yönlendirmeleri ve destekleri için mentörümüz **Mustafa Gürkan Çanakçı’ya** ve **MIUUL ekibine** teşekkür ederiz.
+Bu proje, MIUUL AI Data Scientist Bootcamp 21. Dönem final projesi kapsamında geliştirilmiştir. Proje sürecindeki değerli yönlendirmeleri ve destekleri için mentörümüz [Mustafa Gürkan Çanakçı}(https://github.com/grknc)'ya ve **MIUUL ekibine** teşekkür ederiz.
 
 ## Proje Ekibi
 
 - Ezgi Dönmez
-- Selda Kırıkkanat 
-- Tuğçe Güven
-
+- Selda Kırkkanat
+- [Tuğçe Güven](https://github.com/tugceguvenn)
