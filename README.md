@@ -69,7 +69,7 @@ Notebook'lar birbirinin çıktısını kullanır ve aşağıdaki sırayla çalı
 
 | Notebook | Amaç | Temel çıktı |
 |---|---|---|
-| [`01_data_preparation.ipynb`](01_data_preparation.ipynb) | Veri yükleme, kalite ve anahtar kontrolleri | Temiz Parquet tabloları |
+| [`01_data_preparation.ipynb`](notebooks/01_data_preparation.ipynb) | Veri yükleme, kalite ve anahtar kontrolleri | Temiz Parquet tabloları |
 | [`02_eda_transactions_and_products.ipynb`](02_eda_transactions_and_products.ipynb) | İşlem, ürün, sepet ve RFM EDA'sı | Feature mühendisliği kararları |
 | [`03_eda_customers_and_demographics.ipynb`](03_eda_customers_and_demographics.ipynb) | Demografik kapsama ve temsil farkı | Demografi deney stratejisi |
 | [`04_eda_campaigns_and_coupons.ipynb`](04_eda_campaigns_and_coupons.ipynb) | Kampanya ve kupon iş kuralları | Güvenilir kampanya/kupon feature tanımları |
