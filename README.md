@@ -1,10 +1,3 @@
-Bu proje, MIUUL AI Data Scientist Bootcamp 21. Dönem final projesi kapsamında geliştirilmiştir. Proje sürecindeki değerli yönlendirmeleri ve destekleri için mentörümüz **Mustafa Gürkan Çanakçı’ya** ve **MIUUL ekibine** teşekkür ederiz.
-
-## Proje Ekibi
-
-- Selda Kırkkanat
-- Ezgi Dönmez
-- Tuğçe Güven
 
 # The Complete Journey — Perakendede Müşteri Kaybı Tahmini ve Akıllı Karar Destek Sistemi
 
@@ -485,12 +478,9 @@ Bilmeniz gerekenler:
 
 ---
 
-Sorunuz olursa proje ekibi: Selda Kırıkkanat, Ezgi Dönmez, Tuğçe Güven.
-
 ## Repo yapısı
 
 ```text
-datagambit-g03/
 │
 ├── .streamlit/
 │   └── config.toml
@@ -520,7 +510,6 @@ datagambit-g03/
 │   ├── ui.py
 │   └── whatif.py
 │
-│── about.md
 ├── .env.example
 ├── .gitignore
 ├── README.md
@@ -540,4 +529,12 @@ datagambit-g03/
 ## Lisans
 
 Proje kodu [`LICENSE`](LICENSE) dosyasındaki MIT Lisansı ile sunulmaktadır. The Complete Journey veri setinin kullanım koşulları kendi veri sağlayıcısına aittir.
+
+Bu proje, MIUUL AI Data Scientist Bootcamp 21. Dönem final projesi kapsamında geliştirilmiştir. Proje sürecindeki değerli yönlendirmeleri ve destekleri için mentörümüz **Mustafa Gürkan Çanakçı’ya** ve **MIUUL ekibine** teşekkür ederiz.
+
+## Proje Ekibi
+
+- Ezgi Dönmez
+- Selda Kırıkkanat 
+- Tuğçe Güven
 
