@@ -70,11 +70,11 @@ Notebook'lar birbirinin çıktısını kullanır ve aşağıdaki sırayla çalı
 | Notebook | Amaç | Temel çıktı |
 |---|---|---|
 | [`01_data_preparation.ipynb`](notebooks/01_data_preparation.ipynb) | Veri yükleme, kalite ve anahtar kontrolleri | Temiz Parquet tabloları |
-| [`02_eda_transactions_and_products.ipynb`](02_eda_transactions_and_products.ipynb) | İşlem, ürün, sepet ve RFM EDA'sı | Feature mühendisliği kararları |
-| [`03_eda_customers_and_demographics.ipynb`](03_eda_customers_and_demographics.ipynb) | Demografik kapsama ve temsil farkı | Demografi deney stratejisi |
-| [`04_eda_campaigns_and_coupons.ipynb`](04_eda_campaigns_and_coupons.ipynb) | Kampanya ve kupon iş kuralları | Güvenilir kampanya/kupon feature tanımları |
-| [`05_target_and_feature_engineering.ipynb`](05_target_and_feature_engineering.ipynb) | Hedef, snapshot paneli ve feature üretimi | Model tablosu ve feature setleri |
-| [`06_modeling_and_evaluation.ipynb`](06_modeling_and_evaluation.ipynb) | Model seçimi, kalibrasyon, test ve açıklanabilirlik | Model bundle, tahminler ve metrikler |
+| [`02_eda_transactions_and_products.ipynb`](notebooks/02_eda_transactions_and_products.ipynb) | İşlem, ürün, sepet ve RFM EDA'sı | Feature mühendisliği kararları |
+| [`03_eda_customers_and_demographics.ipynb`](notebooks/03_eda_customers_and_demographics.ipynb) | Demografik kapsama ve temsil farkı | Demografi deney stratejisi |
+| [`04_eda_campaigns_and_coupons.ipynb`](notebooks/04_eda_campaigns_and_coupons.ipynb) | Kampanya ve kupon iş kuralları | Güvenilir kampanya/kupon feature tanımları |
+| [`05_target_and_feature_engineering.ipynb`](notebooks/05_target_and_feature_engineering.ipynb) | Hedef, snapshot paneli ve feature üretimi | Model tablosu ve feature setleri |
+| [`06_modeling_and_evaluation.ipynb`](notebooks/06_modeling_and_evaluation.ipynb) | Model seçimi, kalibrasyon, test ve açıklanabilirlik | Model bundle, tahminler ve metrikler |
 
 ## Veri hazırlama ve EDA'dan alınan temel kararlar
 
