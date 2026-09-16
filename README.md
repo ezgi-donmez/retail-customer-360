@@ -232,8 +232,8 @@ Sıfıra yakın veya negatif permutation importance, bir feature'ın kesinlikle 
 ### 1. Repoyu klonlayın
 
 ```bash
-git clone https://github.com/ezgi-donmez/complete-journey-project.git
-cd complete-journey-project
+git clone https://github.com/ezgi-donmez/retail-customer-360.git
+cd retail-customer-360
 ```
 
 ### 2. Sanal ortam oluşturun
@@ -529,10 +529,10 @@ Bilmeniz gerekenler:
 
 Proje kodu [`LICENSE`](LICENSE) dosyasındaki MIT Lisansı ile sunulmaktadır. The Complete Journey veri setinin kullanım koşulları kendi veri sağlayıcısına aittir.
 
-Bu proje, MIUUL AI Data Scientist Bootcamp 21. Dönem final projesi kapsamında geliştirilmiştir. Proje sürecindeki değerli yönlendirmeleri ve destekleri için mentörümüz [Mustafa Gürkan Çanakçı}(https://github.com/grknc)'ya ve **MIUUL ekibine** teşekkür ederiz.
+Bu proje, MIUUL AI Data Scientist Bootcamp 21. Dönem final projesi kapsamında geliştirilmiştir. Proje sürecindeki değerli yönlendirmeleri ve destekleri için mentörümüz [Mustafa Gürkan Çanakçı](https://github.com/grknc)'ya ve **MIUUL ekibine** teşekkür ederiz.
 
 ## Proje Ekibi
 
-- Ezgi Dönmez
+- [Ezgi Dönmez](https://github.com/ezgi-donmez)
 - Selda Kırkkanat
 - [Tuğçe Güven](https://github.com/tugceguvenn)
